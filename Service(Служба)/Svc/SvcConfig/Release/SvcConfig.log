@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  SvcConfig.cpp
+c:\users\artem\desktop\service\svc\svcconfig\svcconfig.cpp(31): warning C4326: возвращаемый тип "wmain" должен быть "int", а не "void"
+c:\users\artem\desktop\service\svc\svcconfig\svcconfig.cpp(412): warning C4101: ssStatus: неиспользованная локальная переменная
+  Создание кода
+  All 15 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  SvcConfig.vcxproj -> C:\Users\artem\Desktop\Service\Svc\Release\SvcConfig.exe

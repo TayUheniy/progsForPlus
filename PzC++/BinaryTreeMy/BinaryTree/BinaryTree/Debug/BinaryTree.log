@@ -1,0 +1,3 @@
+﻿  BinaryTree.cpp
+c:\users\artem\desktop\binarytreemy\binarytree\binarytree\binarytree.cpp(62): warning C4715: BinaryTree::Find: значение возвращается не при всех путях выполнения
+  BinaryTree.vcxproj -> C:\Users\artem\Desktop\BinaryTreeMy\BinaryTree\Debug\BinaryTree.exe

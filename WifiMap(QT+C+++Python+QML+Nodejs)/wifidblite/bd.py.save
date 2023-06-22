@@ -1,0 +1,25 @@
+import sqlite3
+import psycopg2
+sqlite_connection = sqlite3.connect('ru.sqlite')
+cursor = sqlite_connection.cursor()
+print("Success connect")
+sqlite_select_query = """SELECT * FROM wifi_zone"""
+cursor.execute(sqlite_select_query)
+records = cursor.fetchall()
+
+con = psycopg2.connect(
+	database="wifidb",
+	user="postgres",
+	password="postgres",
+	host="localhost",
+	port="5432"
+	)
+	print("Succes")
+except:
+	print("Error")
+#for row in records:
+	
+#	print(row[1])
+#	print(row[4])
+#	print(row[5])
+cursor.close()

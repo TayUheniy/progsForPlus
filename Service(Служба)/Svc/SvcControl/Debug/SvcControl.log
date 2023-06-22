@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  SvcControl.cpp
+c:\users\artem\desktop\service\svc\svccontrol\svccontrol.cpp(35): warning C4326: возвращаемый тип "wmain" должен быть "int", а не "void"
+  SvcControl.vcxproj -> C:\Users\artem\Desktop\Service\Svc\Debug\SvcControl.exe

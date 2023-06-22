@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  Svc.cpp
+c:\users\artem\desktop\service\svc\svc\svc.cpp(34): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Svc.vcxproj -> C:\Users\artem\Desktop\Service\Svc\Debug\Svc.exe

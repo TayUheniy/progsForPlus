@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  SvcConfig.cpp
+c:\users\artem\desktop\service\svc\svcconfig\svcconfig.cpp(31): warning C4326: возвращаемый тип "wmain" должен быть "int", а не "void"
+c:\users\artem\desktop\service\svc\svcconfig\svcconfig.cpp(412): warning C4101: ssStatus: неиспользованная локальная переменная
+  SvcConfig.vcxproj -> C:\Users\artem\Desktop\Service\Svc\Debug\SvcConfig.exe

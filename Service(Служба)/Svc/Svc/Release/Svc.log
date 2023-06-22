@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  Svc.cpp
+c:\users\artem\desktop\service\svc\svc\svc.cpp(34): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода
+  All 15 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  Svc.vcxproj -> C:\Users\artem\Desktop\Service\Svc\Release\Svc.exe

@@ -1,0 +1,20 @@
+#pragma once
+size_t lenght(const char *str);
+char *newstr(const char *str1, const char *str2);
+bool CombinePath(const char *directoryPath, const char *subDirectoryName);
+bool Createdirfamyly(bool isDirectory, const char *fileObjectPath);
+typedef bool(*FileObjectProcessor)(bool isDirectory, const char *fileObjectPath);
+bool TraverseDirectory(const char *directoryPath, FileObjectProcessor fileObjectProcessor);
+char *CombinePathes(const char *directoryPath, const char *fileName);
+bool RenameFile(const char *originalFilePath, const char *newFileName);
+bool RenameDirectory(bool isDirectory, const char *fileObjectPath);
+char *StrFromFile(const char *data, size_t &Lenghtsize);
+bool CopyFiles(const char *sourceFilePath, const char *destinationFilePath, size_t blockSize);
+bool CreateDirectoryWay(const char* way, const char* &create_way);
+bool CopyDirectory(bool isDirectory, const char *fileObjectPath);
+bool SizeDirectory(bool isDirectory, const char *fileObjectPath, int &rezult, int size);
+bool SizeFileOfDirectory(const char *directoryPath, int &number, char** &rezult);
+typedef bool(*FileObjectProcessorSize)(bool isDirectory, const char *fileObjectPath, int &rezult, int size);
+bool TraverseDirectory(const char *directoryPath, FileObjectProcessorSize fileObjectProcessor, int &rezult);
+bool Sortirovka(const char *fileName, int N);
+bool OpenFileSortirovka(bool isDirectory, const char *fileObjectPath);

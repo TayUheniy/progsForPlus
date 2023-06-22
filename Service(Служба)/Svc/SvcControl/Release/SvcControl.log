@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  SvcControl.cpp
+c:\users\artem\desktop\service\svc\svccontrol\svccontrol.cpp(35): warning C4326: возвращаемый тип "wmain" должен быть "int", а не "void"
+  Создание кода
+  All 14 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  SvcControl.vcxproj -> C:\Users\artem\Desktop\Service\Svc\Release\SvcControl.exe
